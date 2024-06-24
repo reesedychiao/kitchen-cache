@@ -30,25 +30,25 @@ Before you begin, ensure you have the following installed on your machine:
 ### Installation
 
 1. Clone the Repository
-   `git clone https://github.com/reesedychiao/kitchen-cache.git`
-   `cd kitchen-cache`
-2. Install Deoendencies --> `npm install`
+   - `git clone https://github.com/reesedychiao/kitchen-cache.git`
+   - `cd kitchen-cache`
+2. Install Deoendencies: `npm install`
 3. Set Up Supabase
 
-- Create a project on [Supabase](www.supabase.com)
+- Create a project on Supabase
 - Set up your database schema and tables as required (e.g., `Groceries`, `PantryItems`, `Recipes`).
 - Get your Supabase URL and anon key from the project settings.
 
 4. Create Enironment Variables
 
 - Create a `.env.local` file in the root directory and add your Supabase URL and anon key:
-  `NEXT_PUBLIC_SUPABASE_URL=your-supabase-url`
-  `NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key`
+- `NEXT_PUBLIC_SUPABASE_URL=your-supabase-url`
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key`
 
 ### Running the Application
 
-1. Start the Development Server --> `npm run dev`
-2. Build for Production --> `npm run build`
+1. Start the Development Server: `npm run dev`
+2. Build for Production: `npm run build`
 
 ## Contributing
 
@@ -56,4 +56,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## Contact
 
-For any feedback or questions, please contact [Reese Dychiao] (dychiaoreese@gmail.com).
+For any feedback or questions, please contact dychiaoreese@gmail.com
