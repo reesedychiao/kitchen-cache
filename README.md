@@ -35,15 +35,14 @@ Before you begin, ensure you have the following installed on your machine:
 2. Install Deoendencies: `npm install`
 3. Set Up Supabase
 
-- Create a project on Supabase
-- Set up your database schema and tables as required (e.g., `Groceries`, `PantryItems`, `Recipes`).
-- Get your Supabase URL and anon key from the project settings.
+   - Create a project on Supabase
+   - Set up your database schema and tables as required (e.g., `Groceries`, `PantryItems`, `Recipes`).
+   - Get your Supabase URL and anon key from the project settings.
 
 4. Create Enironment Variables
-
-- Create a `.env.local` file in the root directory and add your Supabase URL and anon key:
-- `NEXT_PUBLIC_SUPABASE_URL=your-supabase-url`
-- `NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key`
+   - Create a `.env.local` file in the root directory and add your Supabase URL and anon key:
+   - `NEXT_PUBLIC_SUPABASE_URL=your-supabase-url`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key`
 
 ### Running the Application
 
