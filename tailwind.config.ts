@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        sacramento: ["Sacramento", "sans-serif"],
+        comfortaa: ["Comfortaa", "sans-serif"],
+      },
+      colors: {
+        customOrange: "#d66102",
+        customBlue: "#285f7b",
       },
     },
   },

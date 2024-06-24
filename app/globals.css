@@ -2,32 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.meat {
+  @apply bg-rose-700 bg-opacity-20;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.dairy {
+  @apply bg-blue-500 bg-opacity-20;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bread {
+  @apply bg-yellow-500 bg-opacity-20;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.fruits {
+  @apply bg-lime-300 bg-opacity-20;
+}
+
+.vegetables {
+  @apply bg-lime-600 bg-opacity-20;
+}
+
+.frozen {
+  @apply bg-violet-500 bg-opacity-20;
+}
+
+.beverage {
+  @apply bg-pink-500 bg-opacity-20;
+}
+
+.snack {
+  @apply bg-cyan-700 bg-opacity-20;
+}
+
+.others {
+  @apply bg-amber-800 bg-opacity-20;
+}
+
+.font-sacramento {
+  font-family: "Sacramento", cursive;
+}
+
+.font-comfortaa-light {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 300;
+}
+
+.font-comfortaa-regular {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+}
+
+.font-comfortaa-medium {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 500;
+}
+
+.font-comfortaa-semibold {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 600;
+}
+
+.font-comfortaa-bold {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
 }
